@@ -22,7 +22,3 @@ class BooksSpider(CrawlSpider):
             "availability": response.css(".availability::text").re_first(r"\d+")
         }
         
-
-
-
-

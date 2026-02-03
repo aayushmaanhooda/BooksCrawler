@@ -1,0 +1,16 @@
+# Define here the models for your scraped items
+#
+# See documentation in:
+# https://docs.scrapy.org/en/latest/topics/items.html
+
+import scrapy
+# what are you trying to extract from a websote
+
+class NewscrawlerItem(scrapy.Item):
+    # define the fields for your item here like:
+    title = scrapy.Field()
+    link = scrapy.Field()
+    date = scrapy.Field()
+    source = scrapy.Field()
+    summary = scrapy.Field()
+
